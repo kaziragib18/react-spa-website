@@ -16,7 +16,7 @@ const Item = (props) => {
                                     <h5 class="card-title fs-6 text-dark mt-3">Item: <span className="text-danger">{item}</span></h5>
                                     <h5 class="card-title fs-6 text-dark mt-3">Description: <span className="text-dark">{desc.slice(0,150)}...</span></h5>
                                     <h5 class="card-title fs-6 text-dark mt-3">Country: <span className="text-danger">{location}</span></h5>
-                                    <p class="card-text mt-3 fw-bold">Price: $<span className="text-danger fw-bold">{price}</span></p>
+                                    <p class="card-text mt-3 fw-bold">Price: $<span className="text-danger">{price}</span></p>
                                     <button 
                                     onClick ={() => props.handleAddItem(props.item)}
                                     className="btn btn-danger">Add to cart</button>

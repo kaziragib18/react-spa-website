@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Cart from '../../Cart/Cart';
 import Item from '../../Item/Item';
+import './Main.css'
 
 const Main = () => {
 
@@ -11,9 +12,9 @@ const Main = () => {
 
        //declare event handler where state is  
 
-      const handleAddItem =(product) => {
+      const handleAddItem =(item) => {
             //set products one by one in the cart
-            const newCart = [...cart , product]
+            const newCart = [...cart , item]
             setCart(newCart);
 
             // console.log(product);
@@ -28,7 +29,7 @@ const Main = () => {
 
 
       return (
-            <div>
+            <div className="main__div">
             <div className="row">
                   <div className="col-md-9">
                         {/* product load component */}
