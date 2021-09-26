@@ -10,6 +10,7 @@ This is a website called dream life, where user can buy the world most expensive
  - All site section files are saparated into a component file. 
  - Created a Item component to show the data that is created for the site.
  - Used a Cart component to show the total calculation of the items price combined.
+ - The site is diployed in Netlify.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
